@@ -4,12 +4,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-sidebar',
   standalone:true,
-  template: `
-    <!-- Your Sidebar HTML and styles go here -->
-    <aside>
-      <!-- Sidebar content -->
-    </aside>
-  `,
+  templateUrl: './sidebar.component.html',
   styleUrls: ['./sidebar.component.css'],
 })
 export class SidebarComponent {}

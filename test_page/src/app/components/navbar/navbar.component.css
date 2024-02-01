@@ -1,0 +1,47 @@
+.navbar{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2vmin;
+
+}
+
+#logo{
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2vmin;
+}
+
+
+
+.searchbar{
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2vmin;
+}
+
+.user{
+    background-color: pink;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#profile_picture{
+    background-color: yellow;
+    border-color: white;
+    border-radius: 50%;
+    border: 1vmin;
+    height: 10vmin;
+    width: 10vmin;
+}
