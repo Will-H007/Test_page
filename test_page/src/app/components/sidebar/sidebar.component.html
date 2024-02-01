@@ -1,9 +1,18 @@
 <!-- sidebar.component.html -->
 <div class="sidebar">
   <div class="items">
-    <sidebar-item  [title]="menuItems[0].title" [count]="menuItems[0].count">
+
+    <sidebar-item id= "main-items" *ngFor="let menuItem of menuItems" [title]="menuItem.title" [count]="menuItem.count">
     </sidebar-item>
-    <sidebar-item *ngFor="let menuItem of menuItems" [title]="menuItem.title" [count]="menuItem.count">
+
+    <p>Other Information</p>
+
+    <sidebar-item id= "other-items" *ngFor="let info of otherInformation" [title]="info.title" [count]="info.count">
+    </sidebar-item>
+
+    <p>Settings</p>
+
+    <sidebar-item id= "settings-items" *ngFor="let s of settingItems" [title]="s.title" [count]="s.count">
     </sidebar-item>
 
 

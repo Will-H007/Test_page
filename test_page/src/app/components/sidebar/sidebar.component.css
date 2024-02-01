@@ -15,3 +15,13 @@
     align-items: center;
     gap: 2vmin
 }
+
+#main-items{
+    display: flex;
+    justify-content: start;
+}
+
+#other-items{
+    display: flex;
+    justify-content: start;
+}
