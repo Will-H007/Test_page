@@ -12,7 +12,7 @@ import { CommonModule } from '@angular/common';
 export class SidebarComponent {
   menuItems = [
     { title: 'Dashboard', count: 16 },
-    { title: 'Orders', count: 0 },
+    { title: 'Orders', count: 16 },
     { title: 'Products', count: 0 },
     { title: 'Categories', count: 8 },
     { title: 'Customers', count: 22 },

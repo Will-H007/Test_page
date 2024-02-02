@@ -1,9 +1,9 @@
-.item{
+#upload {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    flex-direction: row;
     align-items: center;
-    gap: 2vmin;
-    font-size: 2vmin;
 }
-
+#add_file{
+    width: 10vmin;
+}

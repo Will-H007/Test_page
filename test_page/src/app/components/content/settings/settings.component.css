@@ -1,0 +1,13 @@
+.settings{
+    background-color: aliceblue;
+    height: 70vh;
+}
+.tags{
+    display: flex;
+    flex-direction: row;
+    gap: 2vmin;
+    background-color: grey;
+
+    width: 100vh;
+
+}

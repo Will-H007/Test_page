@@ -1,0 +1,15 @@
+.content{
+ justify-content: center;
+ margin-left: 10vmin;
+ margin-top: 5vmin;
+
+}
+.head{
+    display: flex;
+    flex-direction: row;
+}
+.top-buttons{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
