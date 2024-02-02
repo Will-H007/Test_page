@@ -1,9 +1,8 @@
-#upload {
+
+#textfields{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-#add_file{
-    width: 10vmin;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 3vmin;
 }
