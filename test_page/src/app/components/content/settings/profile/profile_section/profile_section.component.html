@@ -1,6 +1,8 @@
 <div>
+    <p>Profile Details</p>
+    <p>Enter your profile information</p>
+    <uploadfield [label] = 'uploadlabel'></uploadfield>
     <div id="textfields">
-    <textfield *ngFor="let textfield of textfields" [label] = 'textfield.label'></textfield>
-        
+        <textfield *ngFor="let textfield of textfields" [label] = 'textfield.label'></textfield>
     </div>
 </div>
