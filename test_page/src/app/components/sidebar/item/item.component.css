@@ -11,6 +11,11 @@
     width: 22vmin;
 
 }
+.current_tab{
+    background-color: #1E5EFF;
+
+    border-radius: 50%;
+}
 
 
 .icon{

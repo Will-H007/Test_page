@@ -9,6 +9,16 @@
 
 }
 
+
+.current_tab{
+    background-color: #1E5EFF;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+
 .heading{
     color: #A1A7C4
 }
@@ -22,3 +32,4 @@
     display: flex;
     justify-content: start;
 }
+

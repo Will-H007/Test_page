@@ -1,26 +1,21 @@
-<!-- sidebar.component.html -->
 <div class="sidebar">
- 
   <div class="items">
 
     <!-- Main Items -->
-    <sidebar-item id="main-items" *ngFor="let menuItem of menuItems" [icon]="menuItem.svg" [title]="menuItem.title" [count]="menuItem.count">
+    <sidebar-item id="main-items" *ngFor="let menuItem of menuItems" [icon]="menuItem.svg" [title]="menuItem.title" [count]="menuItem.count" [class.current_tab]="menuItem.title === currentSideTab">
     </sidebar-item>
-  
+
     <p class="heading">Other Information</p>
-  
+
     <!-- Other Information Items -->
-    <sidebar-item id="other-items" *ngFor="let info of otherInformation" [icon]="info.svg" [title]="info.title" [count]="info.count">
+    <sidebar-item id="other-items" *ngFor="let info of otherInformation" [icon]="info.svg" [title]="info.title" [count]="info.count" [class.current_tab]="info.title === currentSideTab">
     </sidebar-item>
-  
+
     <p class="heading">Settings</p>
-  
+
     <!-- Settings Items -->
-    <sidebar-item id="settings-items" *ngFor="let s of settingItems" [icon]="s.svg" [title]="s.title" [count]="s.count">
+    <sidebar-item id="settings-items" *ngFor="let s of settingItems" [icon]="s.svg" [title]="s.title" [count]="s.count" [class.current_tab]="s.title === currentSideTab">
     </sidebar-item>
-  
+
   </div>
-  
-
-
 </div>

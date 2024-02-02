@@ -44,4 +44,6 @@ export class SidebarComponent {
     {  svg:'../../assets/sidebar_icons/global_settings.png',title: 'Global Settings' },
   ]
 
+  currentSideTab = "Personal Settings"
+
 }
