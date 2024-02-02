@@ -1,13 +1,19 @@
 <div class="settings">
+
+
     <div class="tags">
-        <p>Profile</p>
-        <p>Notifications</p>
-        <p>Account</p>
-        <p>Security</p>
+        <div *ngFor="let t of taps" 
+            [class.currenttag]="t.title === currenttag"
+            [class.othertag]="t.title !== currenttag">
+      {{ t.title }}
     </div>
+      </div>
+      
+
 
     <div class="content_details">
         <settings-profile></settings-profile>
-      
     </div>
+
+
 </div>

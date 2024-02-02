@@ -1,6 +1,14 @@
-#dropdown{
+.dropdown{
     display: flex;
     flex-direction: column;
     width: 50vh;
     gap: 1vmin;
+    font-size: 14px;
+    color: #5A607F
+}
+
+.options{
+    height: 4vmin;
+
+
 }

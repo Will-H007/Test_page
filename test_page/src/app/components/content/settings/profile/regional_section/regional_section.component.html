@@ -1,6 +1,8 @@
-<div>
-    <p>Regional Settings</p>
-    <p>Set your language and timezone</p>
+<div id="regional_section">
+    <div>
+        <p id="regional_details_text">Regional Settings</p>
+        <p id="regional_details_sidetext">Set your language and timezone</p>
+    </div>
 
    <div id="dropdowns">
         <dropdown *ngFor="let dropdown of dropdowns" [label] = 'dropdown.label'></dropdown>
