@@ -1,16 +1,33 @@
 .item{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: row;
     align-items: center;
     gap: 2vmin;
-    font-size: 2vmin;
+    font-size: 14px;
     height: 3.5vmin;
     margin-bottom: 1vmin;
     color: #5A607F;
+    width: 100%;
+
+}
+
+
+.icon{
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    align-items: center;
+    gap: 2vmin;
 }
 
 .sidebar_icon{
-    width: 2vmin;
-    height: 2vmin;
+    width: 2.5vmin;
+    height: 2.5vmin;
+}
+
+
+
+#count{
+    order: 2; 
 }

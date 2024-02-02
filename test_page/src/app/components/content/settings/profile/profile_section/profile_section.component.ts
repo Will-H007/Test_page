@@ -12,10 +12,10 @@ import { UploadFieldComponent } from '../../../../fields/uploadfield/uploadfield
 })
 export class ProfileSectionComponent {
   textfields = [
-    { label:"testing1" },
-    { label:"testing2" },
-    { label:"testing3" },
-    { label:"testing4" },
+    { label:"First Name" },
+    { label:"Last Name" },
+    { label:"Email Address" },
+    { label:"Phone Number" },
   ];
 
   uploadlabel = "Profile Image";
