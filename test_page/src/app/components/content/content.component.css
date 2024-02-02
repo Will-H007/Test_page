@@ -1,9 +1,11 @@
 .content{
- justify-content: center;
+
  margin-left: 5vmin;
  margin-top: 2vmin;
 padding-right: 5vmin;
+
 }
+
 .head{
 
     display: flex;
@@ -16,12 +18,13 @@ padding-right: 5vmin;
 
 .body{
     width: 95%;
+    height: 100%;
 }
 
 .handle_buttons{
     width: 100%;
     display: flex;
-    align-items: center;
+    align-items: top;
     justify-content: end;
     height: 3vmin;
     gap: 1vmin;
@@ -32,4 +35,10 @@ padding-right: 5vmin;
 #heading_text{
     font-size: 24px;
     font-weight: 700;
+}
+
+.bottom{
+    padding-top: 2vmin;
+    border-top:0.1px solid grey;
+    padding-bottom: 5vmin;
 }
