@@ -68,6 +68,7 @@ width: 100%;
 #notification{
     background-color: transparent;
     border: transparent;
+    margin-left: 2vmin;
    
 }
 .user{
