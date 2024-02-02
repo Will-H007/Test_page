@@ -11,6 +11,6 @@ import { CommonModule } from '@angular/common';
 })
 export class DropDownComponent {
   @Input() label: string = '';
-
+  @Input() options: { label: string; value: string }[] = [];
 
 }

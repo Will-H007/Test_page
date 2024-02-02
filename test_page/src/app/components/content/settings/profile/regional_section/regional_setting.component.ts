@@ -10,10 +10,22 @@ import { DropDownComponent } from '../../../../fields/dropdown/dropdown.componen
   imports: [ CommonModule, DropDownComponent],
 })
 export class RegionalSectionComponent {
+   
+
     dropdowns = [
-        { label:"testing1" },
-        { label:"testing2" },
-       
+        { label: 'Language', options: [
+          { label: 'English', value: 'english' },
+          { label: 'Spanish', value: 'spanish' },
+          { label: 'French', value: 'french' },
+          { label: 'German', value: 'german' }
+        ] },
+        { label: 'Timezone', options: [
+          { label: 'GMT +02:00', value: 'GMT +02:00' },
+          { label: 'GMT -05:00', value: 'GMT -05:00' },
+          { label: 'GMT +08:00', value: 'GMT +08:00' },
+          { label: 'GMT -03:00', value: 'GMT -03:00' }
+        ] },
+        // Add more dropdowns as needed
       ];
 
 }
