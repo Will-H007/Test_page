@@ -4,5 +4,6 @@
     <img [src]="icon" alt="" class="sidebar_icon">
     <p>{{ title }}</p>
   </div>
-  <div id="count">{{ count }}</div>
+  <div id="count" *ngIf="count !== undefined && count !== null">{{ count }}</div>
+
 </div>

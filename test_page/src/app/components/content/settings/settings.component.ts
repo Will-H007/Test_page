@@ -11,12 +11,12 @@ import { ProfileComponent } from './profile/profile.component';
 })
 export class SettingsComponent {
   
-    taps = [
+    tabs = [
         {title: "Profile", link:""},
         {title: "Notifications", link:""},
         {title: "Account", link:""},
         {title: "Security", link:""}
     ]
 
-    currenttag = "Profile"
+    currenttab = "Profile"
 }

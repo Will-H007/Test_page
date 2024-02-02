@@ -1,10 +1,10 @@
 <div class="settings">
 
 
-    <div class="tags">
-        <div *ngFor="let t of taps" 
-            [class.currenttag]="t.title === currenttag"
-            [class.othertag]="t.title !== currenttag">
+    <div class="head_tabs">
+        <div *ngFor="let t of tabs" 
+            [class.currenttab]="t.title === currenttab"
+            [class.othertab]="t.title !== currenttab">
       {{ t.title }}
     </div>
       </div>

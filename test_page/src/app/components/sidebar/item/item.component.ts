@@ -12,5 +12,5 @@ import { Component, Input } from '@angular/core';
 export class ItemComponent {
   @Input() icon: string = ''; // Assuming SVG content is a string
   @Input() title: string = '';
-  @Input() count: number = 0;
+  @Input() count?: number;
 }
