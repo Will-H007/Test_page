@@ -1,0 +1,12 @@
+#textfield{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1vmin;
+    font-size: 14px;
+    color: #5A607F
+}
+#textarea{
+    height: 3vmin;
+    width:515px
+}

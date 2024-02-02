@@ -1,0 +1,47 @@
+.item{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    gap: 2vmin;
+    font-size: 14px;
+    height: 3.5vmin;
+    margin-bottom: 1vmin;
+    color: #5A607F;
+    width: 20vmin;
+    padding-left: 1vmin;
+   
+
+}
+.current_tab{
+    background-color: #1E5EFF;
+    border-radius: 0.5vmin;
+    color: white
+}
+
+
+.icon{
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    align-items: center;
+    gap: 2vmin;
+}
+
+.sidebar_icon{
+    width: 2.5vmin;
+    height: 2.5vmin;
+}
+
+
+
+#count{
+    order: 2; 
+    background-color: #131523;
+    padding: 1px;
+    padding-left:4px;
+    padding-right:4px;
+    color: white;
+    border-radius: 40%;
+    font-size: 1.5vmin;
+}

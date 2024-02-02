@@ -1,0 +1,117 @@
+.navbar{
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#logo_area{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 2vmin;
+    padding-left: 2vmin;
+    margin-right: 13vmin;
+  
+}
+
+#logo_text{
+    font-weight: 800;
+    font-size: 2.5vmin;
+}
+
+
+
+.searchbar{
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1vmin;
+    width: 100%;
+    height: 100%;
+
+
+}
+
+#search_text{
+    border: transparent;
+width: 100%;
+    color: #5A607F;
+    font-family: Inter;
+    font-weight: 400;
+    outline: none; 
+
+}
+
+
+
+.user_icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+}
+#chat{
+    background-color: transparent;
+    border: transparent;
+   
+}
+#notification{
+    background-color: transparent;
+    border: transparent;
+    margin-left: 2vmin;
+   
+}
+.user{
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 30vmin;
+    justify-content: center;
+    align-items: center;
+    gap: 1vmin;
+   
+}
+
+
+#user_picture{
+    background-color: #D8D8D8;
+
+    border-radius: 50%;
+
+    height: 36px;
+    width: 36px;
+}
+
+#user_name{
+    font-size: 14px;
+
+}
+
+
+#navbar_dropdown{
+    background-color: transparent;
+    border: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+
+#navbar_dropdown_icon{
+    
+    width: 100%;
+    height: 100%;
+}

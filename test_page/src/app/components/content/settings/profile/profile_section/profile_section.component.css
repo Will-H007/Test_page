@@ -1,0 +1,31 @@
+#profile_section{
+    display: flex;
+    flex-direction: column;
+    gap: 2vmin;
+    padding-right: 3vmin;
+}
+
+
+#profile_details_text{
+    font-size: 16px;
+    height: 0.5vmin;
+    display: flex;
+    align-items: center;
+}
+
+#profile_details_sidetext{
+    font-size: 14px;
+    height: 0.5vmin;
+    color: #5A607F;
+}
+
+
+#textfields{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 3vmin;
+}
+
+

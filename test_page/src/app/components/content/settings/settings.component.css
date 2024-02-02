@@ -1,0 +1,42 @@
+.settings{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    padding: 2vmin;
+    padding-left: 4vmin;
+    padding-right: 4vmin;
+    gap: 1vmin;
+    margin-bottom: 8vmin;
+    border-radius: 10px;
+    gap: 1vmin;
+}
+
+
+.head_tabs{
+    display: flex;
+    flex-direction: row;
+    gap: 5vmin;
+    width: 100%;
+    height: 4vmin;
+    border-bottom: 0.1px solid grey;
+    color: #5A607F;
+
+}
+
+.content_details{
+
+height: 100%;
+width: 100%;
+}
+
+.currenttab{
+
+    color:blue;
+    border-bottom: 2px solid blue;
+    height: 100%;
+
+}
+
+

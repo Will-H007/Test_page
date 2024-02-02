@@ -1,0 +1,12 @@
+<div id="profile_section">
+    <div>
+        <p id="profile_details_text">Profile Details</p>
+        <p id="profile_details_sidetext">Enter your profile information</p>
+    </div>
+
+    <uploadfield [label] = 'uploadlabel'></uploadfield>
+
+    <div id="textfields">
+        <textfield *ngFor="let textfield of textfields" [label] = 'textfield.label' ></textfield>
+    </div>
+</div>

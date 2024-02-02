@@ -1,0 +1,9 @@
+#save_button{
+    border: transparent;
+    background: #1E5EFF;
+    color:white;
+    height: 4vmin;
+    width: 10vmin;
+    font-size: 16px;
+    border-radius: 5px;
+}
