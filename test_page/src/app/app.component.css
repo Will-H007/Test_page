@@ -1,4 +1,6 @@
 .body{
+    position: absolute;
     display: flex;
     flex-direction: row;
+    top:68px
 }
