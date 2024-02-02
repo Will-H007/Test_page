@@ -1,14 +1,15 @@
 .settings{
-    background-color: aliceblue;
-    height: 70vh;
+    background-color: white;
+    height: 60vmin;
     width: 110vmin;
+    padding: 2vmin;
+    margin-bottom: 8vmin;
 }
+
+
 .tags{
     display: flex;
     flex-direction: row;
     gap: 2vmin;
-    background-color: grey;
-
     width: 100%;
-
 }

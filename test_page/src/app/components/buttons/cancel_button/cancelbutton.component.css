@@ -1,0 +1,8 @@
+#cancel_button{
+    border: transparent;
+    background-color: white;
+    color:blue ;
+    height: 40px;
+    width: 101px;
+    font-size: 16px;
+}

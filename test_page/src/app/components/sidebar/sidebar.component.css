@@ -7,6 +7,9 @@
     padding-top: 3vmin;
 }
 
+.heading{
+    color: #A1A7C4
+}
 
 #main-items{
     display: flex;

@@ -5,19 +5,17 @@
     <sidebar-item id= "main-items" *ngFor="let menuItem of menuItems" [icon] = "menuItem.svg" [title]="menuItem.title" [count]="menuItem.count">
     </sidebar-item>
 
-    <p>Other Information</p>
+    <p class="heading">Other Information</p>
 
     <sidebar-item id= "other-items" *ngFor="let info of otherInformation" [icon] = "info.svg" [title]="info.title" [count]="info.count">
     </sidebar-item>
 
-    <p>Settings</p>
+    <p class="heading">Settings</p>
 
     <sidebar-item id= "settings-items" *ngFor="let s of settingItems" [icon] = "s.svg" [title]="s.title" [count]="s.count">
     </sidebar-item>
 
 
 
-
-    <!-- Add other items here -->
   </div>
 </div>

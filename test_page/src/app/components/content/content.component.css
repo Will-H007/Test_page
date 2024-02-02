@@ -1,15 +1,27 @@
 .content{
  justify-content: center;
  margin-left: 10vmin;
- margin-top: 5vmin;
+ margin-top: 2vmin;
 
 }
 .head{
+
     display: flex;
     flex-direction: row;
+    align-items: center;
+
 }
+
 .top-buttons{
     width: 100%;
     display: flex;
+    align-items: center;
     justify-content: end;
+    height: 36px;
+    gap: 1vmin;
+}
+
+#heading_text{
+    font-size: 24px;
+    font-weight: 700;
 }
