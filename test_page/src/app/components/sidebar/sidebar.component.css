@@ -1,25 +1,12 @@
 .sidebar{
-    background-color: #F5F6FA;
     display: flex;
-    justify-content: space-between;
     flex-direction: column;
     align-items: center;
-    width: 30vmin;
+    width: 28vmin;
     height: 90vh;
     padding-top: 3vmin;
-
-
 }
 
-.item{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
-    gap: 2vmin;
-
-
-}
 
 #main-items{
     display: flex;

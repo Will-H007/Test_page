@@ -5,5 +5,11 @@
     align-items: center;
     gap: 2vmin;
     font-size: 2vmin;
+    height: 4vmin;
+    color: #5A607F;
 }
 
+.sidebar_icon{
+    width: 2vmin;
+    height: 2vmin;
+}

@@ -10,7 +10,7 @@ import { Component, Input } from '@angular/core';
   imports: [CommonModule],
 })
 export class ItemComponent {
-
+  @Input() icon: string = ''; // Assuming SVG content is a string
   @Input() title: string = '';
   @Input() count: number = 0;
 }
