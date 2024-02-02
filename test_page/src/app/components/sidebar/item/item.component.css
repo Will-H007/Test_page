@@ -8,13 +8,15 @@
     height: 3.5vmin;
     margin-bottom: 1vmin;
     color: #5A607F;
-    width: 22vmin;
+    width: 20vmin;
+    padding-left: 1vmin;
+   
 
 }
 .current_tab{
     background-color: #1E5EFF;
-
-    border-radius: 50%;
+    border-radius: 0.5vmin;
+    color: white
 }
 
 

@@ -13,4 +13,6 @@ export class ItemComponent {
   @Input() icon: string = ''; // Assuming SVG content is a string
   @Input() title: string = '';
   @Input() count?: number;
+
+  currentSideTab = "Personal Settings"
 }

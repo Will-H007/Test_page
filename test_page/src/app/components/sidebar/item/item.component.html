@@ -1,5 +1,5 @@
 <!-- item.component.html -->
-<div class="item">
+<div class="item" [ngClass]="{ 'current_tab': title === currentSideTab}">
   <div class="icon">
     <img [src]="icon" alt="" class="sidebar_icon">
     <p>{{ title }}</p>
