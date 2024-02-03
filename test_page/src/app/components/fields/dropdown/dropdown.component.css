@@ -4,12 +4,14 @@
     width: 100%;
     gap: 1vmin;
     font-size: 14px;
-    color: #5A607F
+    color: #5A607F;
+
 }
 
 .options{
     height: 4vmin;
     font-size: 16px;
     color: #131523;
-    width:523px
+    width:523px;
+    border: 1px solid #D9E1EC
 }

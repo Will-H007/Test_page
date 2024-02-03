@@ -38,7 +38,8 @@ padding-right: 5vmin;
 }
 
 .bottom{
-    padding-top: 2vmin;
-    border-top:0.1px solid grey;
+    padding-top: 3vmin;
+    border-top: 1px solid #E6E9F4;
     padding-bottom: 5vmin;
+
 }

@@ -6,7 +6,7 @@
 }
 
 #uploadarea{
-    border: 1px dashed grey;
+    border: 1px solid #D9E1EC;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -29,7 +29,7 @@
     color: #1E5EFF;
     background-color: transparent;
     border-radius: 0.5vmin;
-    border: 1px solid #D7DBEC;
+    border: 1px solid #D9E1EC;
     width: 12vmin;
     height: 7vmin
 }

@@ -4,9 +4,11 @@
     width: 100%;
     gap: 1vmin;
     font-size: 14px;
-    color: #5A607F
+    color: #5A607F;
+ 
 }
 #textarea{
     height: 3vmin;
-    width:515px
+    width:515px;
+    border: 1px solid #D9E1EC
 }
